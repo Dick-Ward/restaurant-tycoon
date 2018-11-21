@@ -29,26 +29,4 @@ class Restaurant
     Location.create(address, rent, self)
   end
 
-###  BONUS ###
-
-  def employees
-    employee_array = []
-    locations.each do |location|
-      location.employees.each do |employee|
-        employee_array << employee
-      end
-    end
-    return employee_array
-  end
-
-  def total_pay
-    employees.reduce(0) do |sum, employee|
-      sum + employee.pay
-    end
-  end
-
-  def total_expenses
-    self.total_rent + self.total_pay
-  end
-
 end
