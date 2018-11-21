@@ -58,7 +58,7 @@ Add a third class into the mix: an Employee.  Each location can have many employ
   + Returns an array of each `Employee` instance that works for this `Restaurant`
 + `Restaurant#total_pay`
   + Returns the total amount this `Restaurant` pays out to all of its employees
-+ `Restaurant#total_expenes
++ `Restaurant#total_expenes`
   + Returns the total amount this `Restaurant` pays out to all of its employees AND in rent 
 
 ### Build out the following methods on the `Location` class 
