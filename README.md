@@ -37,7 +37,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 + `Location.all`
   + Returns an array of all `Location` instances, irrespective of the `Restaurant` each `Location` belongs to
-+ `Location.all_address`
++ `Location.all_addresses`
   + Returns an array of the address of all `Location` instances.
 
 
