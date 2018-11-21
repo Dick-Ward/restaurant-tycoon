@@ -27,6 +27,8 @@ class Location
     end
   end
 
+###  BONUS ###
+
   def hire_employee(name, pay)
     Employee.new(name, pay, self)
   end
