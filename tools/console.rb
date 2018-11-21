@@ -1,4 +1,4 @@
-require_relative 'environment.rb'
+require_relative '../config/environment.rb'
 
 
 fridays = Restaurant.new("TGIFridays")
