@@ -27,5 +27,9 @@ class Location
     end
   end
 
+  def hire_employee(name, pay)
+    Employee.new(name, pay, self)
+  end
+
 
 end
