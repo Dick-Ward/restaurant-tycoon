@@ -1,3 +1,10 @@
 require_relative '../config/environment.rb'
 
-Pry.start
+
+md = Restaurant.new("McDonalds")
+bk = Restaurant.new("Burger King")
+arbys = Restaurant.new("Arby's")
+puts bk.name
+
+pry.start
+
